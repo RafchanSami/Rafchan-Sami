@@ -45,24 +45,36 @@ export default function Hero() {
             />
           </div>
 
-          <div className="flex items-center justify-center space-x-6 mb-12">
-            {[
-              { icon: Github, href: 'https://github.com/RafchanSami', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
-              { icon: Mail, href: 'mailto:rafchansami@gmail.com', label: 'Email' }
-            ].map((social, i) => (
-              <motion.a
-                key={i}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.2, y: -5 }}
-                className="p-3 glass rounded-full text-zinc-400 hover:text-neon-blue hover:border-neon-blue/50 transition-all duration-300 shadow-lg hover:shadow-[0_0_15px_rgba(0,245,255,0.4)]"
-                aria-label={social.label}
-              >
-                <social.icon size={24} />
-              </motion.a>
-            ))}
+          <div className="flex flex-wrap items-center justify-center gap-6 mb-12">
+            <motion.a
+              href="https://drive.google.com/file/d/1MJk7kXiiaO1P4vXVHP2BJPecZAf8H15g/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="px-8 py-4 bg-neon-blue text-black font-bold rounded-full shadow-[0_0_20px_rgba(0,245,255,0.4)] hover:shadow-[0_0_30px_rgba(0,245,255,0.6)] transition-all duration-300"
+            >
+              Download Resume
+            </motion.a>
+            <div className="flex items-center space-x-6">
+              {[
+                { icon: Github, href: 'https://github.com/RafchanSami', label: 'GitHub' },
+                { icon: Linkedin, href: '#', label: 'LinkedIn' },
+                { icon: Mail, href: 'mailto:rafchansami@gmail.com', label: 'Email' }
+              ].map((social, i) => (
+                <motion.a
+                  key={i}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.2, y: -5 }}
+                  className="p-3 glass rounded-full text-zinc-400 hover:text-neon-blue hover:border-neon-blue/50 transition-all duration-300 shadow-lg hover:shadow-[0_0_15px_rgba(0,245,255,0.4)]"
+                  aria-label={social.label}
+                >
+                  <social.icon size={24} />
+                </motion.a>
+              ))}
+            </div>
           </div>
 
           <motion.div

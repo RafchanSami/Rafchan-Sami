@@ -41,8 +41,8 @@ export default function Contact() {
           <div className="space-y-6">
             {[
               { icon: Mail, label: 'Email', value: 'rafchansami@gmail.com', href: 'mailto:rafchansami@gmail.com' },
-              { icon: Phone, label: 'Phone', value: '+01622041919', href: 'tel:+01622041919' },
-              { icon: MapPin, label: 'Location', value: 'Bangladesh, Cumilla', href: 'https://www.google.com/maps/place/MD.Zakir+Hossain+House/@23.4071274,91.1670338,17z/data=!4m15!1m8!3m7!1s0x37547f003f28cfef:0xaeb3658d8eacfeb6!2sMD.Zakir+Hossain+House!8m2!3d23.4071225!4d91.1696087!10e1!16s%2Fg%2F11mt0y4cjh!3m5!1s0x37547f003f28cfef:0xaeb3658d8eacfeb6!8m2!3d23.4071225!4d91.1696087!16s%2Fg%2F11mt0y4cjh?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D' }
+              { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
+              { icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: '#' }
             ].map((item, i) => (
               <div key={i} className="flex items-center group">
                 <div className="p-4 glass rounded-2xl text-neon-blue group-hover:shadow-[0_0_15px_rgba(0,245,255,0.4)] transition-all duration-300 mr-6">
