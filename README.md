@@ -1,20 +1,63 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 💙 My Portfolio Website
 
-# Run and deploy your AI Studio app
+Hi! 👋  
+I'm a Class 8 student and a beginner web developer. I love learning programming and building simple websites.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/d829385d-b820-45e2-9521-3375e8736b8d
+## 🚀 About Me
 
-## Run Locally
+- 🎓 Class 8 Student  
+- 💻 Learning Web Development  
+- 🌱 Currently learning PHP
+- 🎯 Goal: Become a professional software developer  
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Skills
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- HTML  
+- CSS  
+- JavaScript (Basic)
+
+---
+
+## 💼 Projects
+
+Here are some of my beginner projects:
+
+- 🌐 Simple Portfolio Website  
+- 🛒 Basic eCommerce UI  
+- 🎨 Landing Page Design  
+
+---
+
+## 🎥 Features of This Website
+
+- 💙 Neon Blue Design  
+- 🎬 Video Background (Coding Theme)  
+- ✨ Smooth Animations  
+- 📱 Fully Responsive  
+- ⚡ Fast & Modern UI  
+
+---
+
+## 📬 Contact Me
+
+- 📧 Email: rafchansami@email.com  
+- 💻 GitHub: https://github.com/RafchanSami 
+
+---
+
+## 🌟 Future Goals
+
+I want to:
+- Learn advanced JavaScript  
+- Build real-world projects  
+- Become a full stack developer  
+
+---
+
+## ❤️ Thank You
+
+Thanks for visiting my portfolio! 😊
